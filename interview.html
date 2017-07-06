@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : Undeviating 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20140322
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Interview Questions</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900|Quicksand:400,700|Questrial" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="icon" 
+    type="image/png" 
+    href="images/thekoalaz_200x200.png">
+
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+</head>
+<body>
+<div id="header-wrapper">
+    <div id="header" class="container">
+        <div id="logo">
+            <h1><span class="icon"><img src="images/thekoalaz_200x200.png" width="100" height="100" /></span>
+                <a href="index.html">Kyung yul Kevin Lim</a></h1>
+        </div>
+        <!--
+        <div id="menu">
+            <ul>
+                <li class="active"><a href="#" accesskey="1" title="">Homepage</a></li>
+                <li><a href="#" accesskey="2" title="">Our Clients</a></li>
+                <li><a href="#" accesskey="3" title="">About Us</a></li>
+                <li><a href="#" accesskey="4" title="">Careers</a></li>
+                <li><a href="#" accesskey="5" title="">Contact Us</a></li>
+            </ul>
+        </div>
+        -->
+    </div>
+</div>
+<div class="wrapper">
+
+
+
+    <!--==<div id="banner" class="container"><img src="images/banner.jpg" width="1200" height="500" alt="" /></div>-->
+<div id="about" class="container">
+    <div class="title">
+        <h1>Interview questions</h1>
+        <h3 class="byline">By Kevin Lim</h3>
+    </div>
+</div>
+<div id="projects" class="container">
+    <div class="title">
+        <h2>Some misspelled very large number</h2>
+    </div>
+    <div><span class="arrow-down"></span></div>
+    <div class="title">
+        <h3>Question1</h3>
+    </div>
+    <p>
+    Given a list of rectangular buildings, specified as a tuple of 4 x,y corner coordinate pairs (i.e. (x1,y1,x2,y2) for a building that has lower corner x1,y1 and upper corner x2,y2), we want to compute the skyline of the given buildings. Return the skyline as a list of the top edges of the skyline. These will be specified by the starting x and y coordinates, and then the distance to travel across the x axis (i.e. (x, y, d)).
+    </p>
+    <p>
+    Example. Input [(0,0,2,4), (1,0,3,3)] yields output [(0,4,2), (2,3,1)].
+    </p>
+
+    <div class="title">
+        <h3>Question2</h3>
+    </div>
+    <p>
+    Given a list of integers, return the smallest positive integer NOT in the list.
+    </p>
+    <p>
+    Example. Input [5, -3, 0, 3, 2, 1, 8] yields output 4.
+    </p>
+
+    <div class="title">
+        <h3>Question3</h3>
+    </div>
+    <p>
+    Consider how excel names columns. A, B, C, ..., Z, AA, AB, ..., ZX, ZY, ZZ, AAA, AAB, ... Given an integer, starting from 0, return the excel column name as a string.
+    </p>
+    <p>
+    Examples. 0 -> A, 25 -> Z, 26 -> AA, 1352 -> AZA
+    </p>
+
+    <div class="title">
+        <h3>Question 4</h3>
+    </div>
+    <p>
+    An image is specified by a 1d byte array, an integer width(assume divisible by 8) and height. In this format, each pixel is a bit, and can be either 0(white) or 1(black). Given this image, two x coordinates, and a y coordinate, draw a horizontal line between the two x coordinates 
+    </p>
+    <p>
+    Example input would look like:
+    </p>
+    <p>
+    byte image[64] = {0};<br />
+    hl(image, 64, 64, 10, 40, 16).
+    </p>
+    <p>
+    This would draw a horizontal line between (10, 16) to (40, 16) but not change any other part of the image.
+    </p>
+
+</div>
+
+<div id="projects" class="container">
+    <div class="title">
+        <h2>Some tome related to faces</h2>
+    </div>
+    <div><span class="arrow-down"></span></div>
+    <div class="title">
+        <h3>Question1</h3>
+    </div>
+    <p>
+    In a revision system, we keep track of revisions by integers. We have a blackbox unit test unitTest(n) that will test and tell us if a revision passes the test or not. Given two integers, one that was a good revision, and one that is a bad revision, find the first revision between them that started failing the unitTest.
+    </p>
+    <p>
+    Example: Given that the revision history looks as such ... 3(good) 4(good) 5(good) 6(bad) 7(bad) ..., the result when given 3 and 7 should be 6.
+    </p>
+    <div class="title">
+        <h3>Question2</h3>
+    </div>
+    <p>
+    We're given a blackbox function getCategory(n) that categorizes integers to either L, M, or H. Given a list of positive integers, we want to sort this list of integers into the order L first, then M, then H.
+    </p>
+    <p>
+    Example: getCategory(n) returns L for n<6, M for 6<=n<30, H for n>30. Given [1,5,16,30,4,15], the result should be [1,5,4,16,15,30]
+    </p>
+</div>
+<div id="footer">
+    <div class="container">
+        <div class="fbox1">
+            <span class="icon icon-envelope"></span>
+            <span>kyungyullim AT ucsd.edu</span>
+        </div>
+    </div>
+</div>
+<div id="copyright">
+    <p>&copy; Kyung yul Kevin Lim. All rights reserved. | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+    <ul class="contact">
+        <li><a href="http://twitter.com/thekoalaz" class="icon icon-twitter"><span>Twitter</span></a></li>
+        <li><a href="http://facebook.com/thekoalaz" class="icon icon-facebook"><span>Facebook</span></a></li>
+        <li><a href="http://klimilk.tumblr.com/" class="icon icon-tumblr"><span>tumblr</span></a></li>
+    </ul>
+</div>
+</body>
+</html>
+
